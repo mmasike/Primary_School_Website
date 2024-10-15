@@ -80,6 +80,9 @@ nav ul button {
 	nav ul{
 		display: none;
 	}
+	.bg img{
+		top: 0rem;
+	}
 }
 main {
 	background: url(./hero.gif);
@@ -131,7 +134,7 @@ main .text button {
 	}
 	main .text{
 		left: 25%;
-		bottom: 7rem;
+		top: 13.5rem;
 	}
 	main .text h1 {
 		font-size: 40px;
