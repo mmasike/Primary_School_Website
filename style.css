@@ -127,14 +127,14 @@ main .text button {
 	main svg{
 	height: 15rem;
 	width: 30rem;
-	left: -35%;
+	left: -15%;
 	top: 0rem;
-	margin: 4rem;
+	margin: 10rem 0 0 0;
 	opacity: 0.7;
 	}
 	main .text{
 		left: 25%;
-		top: 13.5rem;
+		top: 20rem;
 	}
 	main .text h1 {
 		font-size: 40px;
