@@ -126,7 +126,7 @@ main .text button {
 @media screen and (max-width: 320px), (max-width: 360px) {
 	main svg {
 		height: 15rem;
-		width: 30rem;
+		width: 20rem;
 		left: -15%;
 		top: 0rem;
 		margin: 10rem 0 0 0;
@@ -136,13 +136,15 @@ main .text button {
 		left: 25%;
 		top: 20rem;
 	}
+	/*
 	main .text h1 {
-		font-size: 40px;
+		font-size: 4px;
 	}
 	main .text h2,
 	h3 {
-		font-size: 14px;
+		font-size: 4px;
 	}
+	*/
 }
 @media screen and (max-width: 1024px) {
 	main svg {
@@ -281,21 +283,21 @@ main .text button {
 		background-repeat: no-repeat;
 	}
 	main svg {
-		height: 17rem;
-		width: 20rem;
-		left: 44%;
-		top: 3.5rem;
+		height: 16rem;
+		width: 12rem;
+		left: 45%;
+		top: 3rem;
 	}
 	main .text {
 		left: 51%;
 		top: 12rem;
 	}
 	main .text h1 {
-		font-size: 54px;
+		font-size: 32px;
 	}
 	main .text h2,
 	h3 {
-		font-size: 15px;
+		font-size: 12px;
 	}
 	/*service*/
 	.service-cards {
@@ -322,4 +324,41 @@ main .text button {
 		width: 2em;
 		height: 2em;
 	}
+}
+
+/*mission sec*/
+.mission {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #832c7c13;
+	height: 90vh;
+}
+.mission-text {
+	flex: 1;
+	margin: 0 0 0 80px;
+	text-align: center;
+	color: rgb(14, 13, 13);
+}
+.mission-text h1 {
+	font-size: 40px;
+	font-family: "Lilita One", sans-serif;
+	font-weight: 200;
+}
+.mission-text h2 {
+	font-size: 30px;
+	color: #993b91;
+	font-family: "Lilita One", sans-serif;
+	font-weight: 100;
+}
+.mission-text p {
+	margin: 20px 0 0 0;
+	font-size: 20px;
+	font-family: "Josefin Sans", sans-serif;
+}
+.mission-illustration {
+	flex: 1;
+}
+.mission-illustration img {
+	width: 50rem;
 }
